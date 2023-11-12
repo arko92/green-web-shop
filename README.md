@@ -22,7 +22,7 @@ This is a very basic full stack web application which is build to understand the
 
 App development to deployment is carried out in the following broad steps:
 
-1. [App build up](#Appbuildup)
+1. App build up
 2. Creating and deploying mongodb database
 3. API creation using nodejs to fetch data
 4. Deployment of API to AWS using serverless lambda functions
