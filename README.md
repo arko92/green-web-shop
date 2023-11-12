@@ -37,24 +37,43 @@ App development to deployment is carried out in the following broad steps:
 
 The application is build up in REACT. The app consists of five components app, product, wishlist, product-condensed and services
 
-##### app
+#### app
 
 The main component of the application which wraps other helping components.
 
-##### product
+#### product
 
-A react component which lists the products using the fetched data from a mongoDB database collection. The listed products can be added to the wishlist or removed from the wishlist. Conditional styling is used.
+A react component which lists the products using the fetched data from a mongoDB database collection. The listed products can be added to the wishlist or removed from the wishlist using a data service. Conditional styling is used.
 
-##### product-condensed
+#### product-condensed
 
 A react component which condenses the products (i.e. with lesser details) so that they can be listed on the wishlist.
 
-##### wishlist
+#### wishlist
 
 A react component which displays the selected wishlist items. The items in the wishlist item can also be removed.
 
-##### services
+#### services
 
 The app comprises of four services. A data service, a http service, a notification service and an API service. 
+
+**Data service:**
+Data service perform the following functions:
+
+* Adds an item to the wishList & notifies the components
+* Removes an item from the wishList & notifies the components
+* Check if an item is already present on the wishlist
+
+**HTTP service:**
+
+Fetches data from a serverless AWS lambda function
+
+**Notification service:**
+
+It notifies components whenever there is a change so that they can update accordingly. With this service we are not hard linking different components of the app but only updating the components whenenver there is a change by still remaining independent from each other. 
+
+**green shop API:**
+
+A serverless API to fetch data from a mongoDB database cluster. AWS lambda function is used.
 
 </div>
