@@ -39,14 +39,22 @@ The application is build up in REACT. The app consists of five components app, p
 
 ##### app
 
-The main component
+The main component of the application which wraps other helping components.
 
 ##### product
 
-##### wishlist
+A react component which lists the products using the fetched data from a mongoDB database collection. The listed products can be added to the wishlist or removed from the wishlist. Conditional styling is used.
 
 ##### product-condensed
 
+A react component which condenses the products (i.e. with lesser details) so that they can be listed on the wishlist.
+
+##### wishlist
+
+A react component which displays the selected wishlist items. The items in the wishlist item can also be removed.
+
 ##### services
+
+The app comprises of four services. A data service, a http service, a notification service and an API service. 
 
 </div>
