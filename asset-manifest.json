@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.51e28b4e.css",
-    "main.js": "/static/js/main.f0670daf.js",
-    "static/js/787.7ace839c.chunk.js": "/static/js/787.7ace839c.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.0e5c60b84809bd924eefdd6f99e73a87.svg",
-    "index.html": "/index.html",
-    "main.51e28b4e.css.map": "/static/css/main.51e28b4e.css.map",
-    "main.f0670daf.js.map": "/static/js/main.f0670daf.js.map",
-    "787.7ace839c.chunk.js.map": "/static/js/787.7ace839c.chunk.js.map"
+    "main.css": "/green-web-shop/static/css/main.51e28b4e.css",
+    "main.js": "/green-web-shop/static/js/main.ed9cee4b.js",
+    "static/js/787.7ace839c.chunk.js": "/green-web-shop/static/js/787.7ace839c.chunk.js",
+    "static/media/logo.svg": "/green-web-shop/static/media/logo.0e5c60b84809bd924eefdd6f99e73a87.svg",
+    "index.html": "/green-web-shop/index.html",
+    "main.51e28b4e.css.map": "/green-web-shop/static/css/main.51e28b4e.css.map",
+    "main.ed9cee4b.js.map": "/green-web-shop/static/js/main.ed9cee4b.js.map",
+    "787.7ace839c.chunk.js.map": "/green-web-shop/static/js/787.7ace839c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.51e28b4e.css",
-    "static/js/main.f0670daf.js"
+    "static/js/main.ed9cee4b.js"
   ]
 }
