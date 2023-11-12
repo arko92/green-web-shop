@@ -22,9 +22,31 @@ This is a very basic full stack web application which is build to understand the
 
 App development to deployment is carried out in the following broad steps:
 
-1. App build up in react
+1. [App build up](#Appbuildup)
 2. Creating and deploying mongodb database
 3. API creation using nodejs to fetch data
 4. Deployment of API to AWS using serverless lambda functions
 5. Creation of API gateway endpoint
 6. Deploying app to github
+
+
+
+<h3 id="App build up">App build up</h3>
+
+<div align="justify">
+
+The application is build up in REACT. The app consists of five components app, product, wishlist, product-condensed and services
+
+##### app
+
+The main component
+
+##### product
+
+##### wishlist
+
+##### product-condensed
+
+##### services
+
+</div>
